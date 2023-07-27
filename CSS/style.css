@@ -2,3 +2,18 @@
 .font-lato{
     font-family: 'Lato', sans-serif;
 }
+
+
+@media (max-width: 768px) {
+.cards:nth-child(1) {
+    order: 2;
+}
+
+.cards:nth-child(2) {
+    order: 1;
+}
+
+.cards:nth-child(3) {
+    order: 3;
+}
+}
